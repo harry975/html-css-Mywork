@@ -1,0 +1,140 @@
+
+@media(max-width: 1023px){
+    .footer-last{
+        font-size: 39px;
+    }
+    
+    .footer-last a{
+        padding: 4px;
+    }
+
+    .footer-last .last-text{
+        display: block;
+        padding: 16px 0;
+    }
+
+    .footer-last .link-text{
+        padding: 16px 0;
+    }
+    .cover-contact .infor{
+        line-height: 2;
+    }
+
+
+}
+
+/*Mobile*/
+@media(max-width: 740px){
+    #header{
+        overflow: hidden;
+    }
+
+    #header #nav>li>a{
+        display: block;
+    }
+    #nav{
+        display: block;
+    }
+
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+      
+    }
+    #nav .subnav a{
+        color: #fff;
+    }
+    #nav>li {
+        display: block;
+    }
+    #nav>li:first-child{
+        display: inline-block;
+    }
+
+    #header .search-but{
+        display: none;
+    }
+
+    .menu-mobile{
+        display: initial;
+    }
+
+    .menu-mobile{
+        position: absolute;
+        top: 0;
+        right: 0;
+        float: right;
+        color: #fff;
+        padding: 12px 24px;
+    }
+    .menu-mobile:hover{
+        background-color: #ccc;
+        color: #000;
+    }
+
+    #slider .slider-dis {
+        display: none;
+    }
+    #slider{
+        /* margin-right: -12px; */
+    }
+
+    body{
+        margin: 0;
+    }
+
+    /* mem pic*/
+    #content .mem-pic{
+        width: 220px;
+        height: 220px;
+        margin: 0 0 20px;
+    }
+
+    #content .mem{
+        width: 100%;
+    }
+
+    .place-pic .pic-date{
+        width: 99%;
+    }
+
+    .place-pic .buy{
+        width: 100%;
+    }
+
+    .cover-contact .infor{
+        width: 100%;
+        padding:0;
+        margin-top: 32px;
+    }
+
+    .contact-input{
+        width: 100%;
+        padding-left: 16px;
+    }
+    .contact-input .about1,
+    .contact-input .about2,
+    .contact-input .about{
+        width: 100%;
+        margin-left: 0;
+    }
+    /* .contact-input .about1{
+        width: 100%;
+        margin-top: 8px;
+        display: block;
+        margin-left: 8px;
+    } */
+    
+    /* .bug-input2{
+        width: 108.6px;
+    } */
+    .contact-input .contact-send{
+        margin-bottom: 16px;
+        margin-right: 7px;
+        width: 96%;
+    }
+    
+}
